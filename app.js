@@ -29,7 +29,7 @@ class Tooltip {
   attach() {
     const tooltipElement = document.createElement('div');
     tooltipElement.className = 'card';
-    tooltipElement.textContent = 'DUMMY!';
+    tooltipElement.textContent = 'This a description giving more information about the project item you clicked!';
     tooltipElement.addEventListener('click', this.closeTooltip);
     this.element = tooltipElement;
     document.body.append(tooltipElement);
